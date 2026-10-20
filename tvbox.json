@@ -1,18 +1,20 @@
 {
-  "name": "tvbox-config",
-  "description": "LibreTV TVBox source config",
-  "sources": [
-    {"name": "maoyan", "url": "https://raw.githubusercontent.com/maoyan/tvbox/main/maoyan.json"},
-    {"name": "lzi", "url": "https://raw.githubusercontent.com/lzi/tvbox/main/lzi.json"},
-    {"name": "jyzy", "url": "https://raw.githubusercontent.com/jyzy/tvbox/main/jyzy.json"},
-    {"name": "hongniu", "url": "https://raw.githubusercontent.com/hongniu/tvbox/main/hongniu.json"},
-    {"name": "source1", "url": "https://raw.githubusercontent.com/source1/tvbox/main/source1.json"},
-    {"name": "source2", "url": "https://raw.githubusercontent.com/source2/tvbox/main/source2.json"},
-    {"name": "source3", "url": "https://raw.githubusercontent.com/source3/tvbox/main/source3.json"},
-    {"name": "source4", "url": "https://raw.githubusercontent.com/source4/tvbox/main/source4.json"},
-    {"name": "source5", "url": "https://raw.githubusercontent.com/source5/tvbox/main/source5.json"},
-    {"name": "source6", "url": "https://raw.githubusercontent.com/source6/tvbox/main/source6.json"},
-    {"name": "source7", "url": "https://raw.githubusercontent.com/source7/tvbox/main/source7.json"},
-    {"name": "source8", "url": "https://raw.githubusercontent.com/source8/tvbox/main/source8.json"}
-  ]
+  "name": "LibreTV自用点播源",
+  "sites": [
+    {"key": "maoyan", "name": "猫眼资源", "type": 1, "api": "https://api.maoyanapi.top/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "dytt", "name": "电影天堂", "type": 1, "api": "https://caiji.dyttzyapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "ffzy", "name": "非凡资源", "type": 1, "api": "https://api.ffzyapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "subo", "name": "速播资源", "type": 1, "api": "https://subocj.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "hongniu", "name": "红牛资源", "type": 1, "api": "https://www.hongniuzy2.com/api.php/provide/vod/at/json", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "jszy", "name": "极速资源", "type": 1, "api": "https://jszyapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "360zy", "name": "360资源", "type": 1, "api": "https://360zy.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "lzi", "name": "量子资源", "type": 1, "api": "https://cj.lziapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "mdzy", "name": "魔都资源", "type": 1, "api": "https://www.mdzyapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "bfzy", "name": "暴风资源", "type": 1, "api": "https://bfzyapi.com/api.php/provide/vod", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "jyzy", "name": "金鹰资源", "type": 1, "api": "https://jyzyapi.com/provide/vod/at/json", "searchable": 1, "quickSearch": 1, "changeable": 1},
+    {"key": "bdzy", "name": "博典资源", "type": 1, "api": "https://api.apibdzy.com/api.php/provide/vod/at/json", "searchable": 1, "quickSearch": 1, "changeable": 1}
+  ],
+  "lives": [],
+  "parses": [],
+  "flags": []
 }
